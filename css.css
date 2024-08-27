@@ -1,0 +1,21 @@
+body {
+    margin-top: 1000px;
+}
+img {
+    height: 200px;
+    background-color: #f0f0f0;
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+}
+
+img.loaded {
+    opacity: 1;
+}
+
+.image-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
